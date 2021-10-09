@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Шифр цезаря</title>
+		<link rel="stylesheet" href="css/style.min.css" />
+	</head>
+	<body>
+		<div class="main">
+			<h1>Лабораторна робота №2 <br />Розробив Куриленко Д.В.</h1>
+			<div class="shift">
+				<p>Зсув:</p>
+				<input type="number" name="num" id="num" min="1" max="25" value="3" />
+			</div>
+			<div class="wrapper">
+				<textarea
+					name="text1"
+					id="text1"
+					placeholder="Введіть текст на англійській мові"
+				></textarea>
+				<div class="image">
+					<p class="mode1">Розшифрувати</p>
+					<img src="circle.png" alt="select" class="change" />
+					<p class="mode2 active">Зашифрувати</p>
+				</div>
+				<textarea
+					name="text2"
+					id="text2"
+					readonly
+					placeholder="Тут буде зашифрований текст"
+				></textarea>
+				<div class="btns">
+					<button class="submit">Відправити</button>
+					<button class="submit sbmt">Метод перебору</button>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
