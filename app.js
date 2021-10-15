@@ -56,8 +56,7 @@ const alphabetUp = [
 ];
 const otherSymbols = [
 	' ',
-	'
-	',
+	'\n',
 	',',
 	'.',
 	':',
