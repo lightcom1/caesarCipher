@@ -4,36 +4,37 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Шифр цезаря</title>
+		<meta name="author" content="Denys Kurylenko">
+		<title>Caesar Cipher</title>
 		<link rel="stylesheet" href="css/style.min.css" />
 	</head>
 	<body>
 		<div class="main">
-			<h1>Лабораторна робота №2 <br />Розробив Куриленко Д.В.</h1>
+			<h1>Caesar Cipher</h1>
 			<div class="shift">
-				<p>Зсув:</p>
+				<p>Shift:</p>
 				<input type="number" name="num" id="num" min="1" max="25" value="3" />
 			</div>
 			<div class="wrapper">
 				<textarea
 					name="text1"
 					id="text1"
-					placeholder="Введіть текст на англійській мові"
+					placeholder="Enter your text here"
 				></textarea>
 				<div class="image">
-					<p class="mode1">Розшифрувати</p>
+					<p class="mode1">Decrypt</p>
 					<img src="circle.png" alt="select" class="change" />
-					<p class="mode2 active">Зашифрувати</p>
+					<p class="mode2 active">Encrypt</p>
 				</div>
 				<textarea
 					name="text2"
 					id="text2"
 					readonly
-					placeholder="Тут буде зашифрований текст"
+					placeholder="Encrypted text will be here"
 				></textarea>
 				<div class="btns">
-					<button class="submit">Відправити</button>
-					<button class="submit sbmt">Метод перебору</button>
+					<button class="submit">Send</button>
+					<button class="submit sbmt">Brute force method</button>
 				</div>
 			</div>
 		</div>
