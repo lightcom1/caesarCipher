@@ -107,11 +107,11 @@ btnChange.addEventListener('click', () => {
 	mode1.classList.toggle('active');
 
 	mode1.classList.contains('active')
-		? (text2.placeholder = 'Введіть текст на англійській мові')
-		: (text2.placeholder = 'Тут буде зашифрований текст');
+		? (text2.placeholder = 'Enter your text here')
+		: (text2.placeholder = 'Encrypted text will be here');
 	mode2.classList.contains('active')
-		? (text1.placeholder = 'Введіть текст на англійській мові')
-		: (text1.placeholder = 'Тут буде зашифрований текст');
+		? (text1.placeholder = 'Enter your text here')
+		: (text1.placeholder = 'Encrypted text will be here');
 
 	text2.value = '';
 	text1.value = '';
